@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+     <link rel="stylesheet" href="barbershop.css">
+  </head>
+  <body class="shop-item">
+    <header>
+      <nav class="main-navigation">
+        <div class="main-navigation-wrapper">
+          <div  class="container">
+        <ul class="site-navigation">
+           <li class="site-navigation-current" ><a href="index.html" tabindex="0">Barbershop</a></li>
+           <li ><a href="#" tabindex="0">Новости</a></li>
+           <li ><a href="price-list.html" tabindex="0">Прайс-лист</a></li>
+           <li ><a href="shop.html" tabindex="0">Магазин</a></li>
+           <li ><a href="#contacts" tabindex="0">Контакты</a></li>
+        </ul>
+      <ul class="user-navigation">
+        <li class="login-link" tabindex="0"><a href="">Вход</a></li>
+      </ul>
+    </div>
+      </div>
+       </nav>
+    </header>
+    <main class="main-container container">
+      <h1 class="page-title">Набор для путешевствий "Baxter of California"</h1>
+      <ul class="breadcrumbs">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="catalog.html">Магазин</a></li>
+        <li><a href="shop.html">Средства для ухода</a></li>
+        <li class="breadcrumbs-current"><a>Набор для путешевствий "Baxter of California"</a></li>
+      </ul>
+      <div class="catalog-columns">
+      <section class="product-photos">
+        <h2 class="visually-hidden">Изображение товара</h2>
+          <p class="product-photo-full"><img src="img/html/anfas-1.jpg" alt="Фото товара в анфас"
+           width="460" height="498"></p>
+        <ul class="product-photos-list">
+
+          <li><img src="img/html/anfas-2.jpg" alt="Фото товара в анфас малое 1" width="140" height="149"></li>
+          <li><img src="img/html/anfas-3.jpg" alt="Фото товара в анфас малое 2" width="140" height="149"></li>
+          <li><img src="img/html/anfas-4.jpg" alt="Фото товара в анфас малое 3" width="140" height="149"></li>
+        </ul>
+
+      </section>
+      <section class="product-info">
+        <h2 class="visually-hidden">Описание товара</h2>
+        <div class="container-for-article">
+          <p class="product-availability">Есть в наличии</p>
+          <p class="product-article">Артикул: dexter-ae</p>
+        </div>
+        <p>Trevel Kit-Необходимый аксесуар во время любого путешествия.
+          В аккуратной кожанной сумке находится все, что нужно для бритья
+          и ухода за кожей во время рабочей поездки или отдыха: средство для умывания,
+          увлажняющий крем, крем для бритья, крем после бритья, шампунь.
+          Набор также может стать отличным подарком.
+        </p>
+        <div class="price-container">
+        <b class="price">2 900 ₽</b>
+        <a class="buy" href="#1423" id="buy">Купить</a>
+        <div class="clearfix">
+
+        </div>
+        </div>
+        <h3>В набор входят:</h3>
+         <ul class="product-set-list">
+           <li>Средство для умывания (50мл)</li>
+           <li>Увлажняющий крем (50мл)</li>
+           <li>Крем для бритья (50мл)</li>
+           <li>Крем после бритья, шампунь (50мл)</li>
+           <li>Удобная кожанная косметичка</li>
+         </ul>
+      </section>
+    </div>
+
+
+
+    </main>
+    <footer class="main-footer  shop-footer">
+      <div class="container">
+      <p class="how-connect">
+        Барбершоп "Бородинский" <br>
+        Адрес: г. Санкт-Питербург, б. Конюшенная, д. 19/8 <br>
+        <a href="_" class="how-to-find" tabindex="0">Как нас найти?</a>  <br>
+        Телефон: +7(495)666-02-66
+      </p>
+      <div class="footer-social">
+        <b>Давайте дружить!</b>
+        <ul class="social-list">
+          <li tabindex="0"> <a href="#" class="social-button vk-button"><span class="visually-hidden">Вконтакте</span>
+          </a></li>
+          <li tabindex="0"><a href="#" class="social-button fb-button"><span class="visually-hidden">Фейсбук</span>
+            </a></li>
+          <li tabindex="0"><a disabled href="#" class="social-button inst-button"><span class="visually-hidden">Инстаграм</span>
+          </a></li>
+        </ul>
+      </div>
+      <p class="coopyright-section">
+        <b>Разработано:</b>
+        <a href="#" class="coopyright button" tabindex="0">Html academy</a>
+      </p>
+    </div>
+    </footer>
+    <section class="modal modal-login">
+      <h2>Личный кабинет</h2>
+      <p class="modal-description">Введите свой логин и пароль</p>
+      <form class="user login-form" action="index.html" method="post">
+        <p>
+        <label for="user-login" class="visually-hidden">Логин</label>
+        <input type="text" name="user-login"  id="user-login"
+        class="login-icon-user" placeholder="Логин">
+      </p>
+      <p>
+        <label for="user-password" class="visually-hidden">Пароль</label>
+        <input type="password" name="user-password" id="user-password"
+        class="login-icon-password" placeholder="Пароль">
+      </p>
+        <p class="login-help">
+        <label class="login-checkbox" >
+        <input type="checkbox" name="remember" class="visually-hidden">
+        <span class="checkbox-indicator" tabindex="0" ></span>Запомните меня
+        </label>
+        <a class="forgot-password" href="#forgot-password">Я забыл пароль!</a>
+      </p>
+      <button type="submit"   class="button button-submit" tabindex="0" name="button">Войти</button>
+      </form>
+      <button  class="modal-close" type="button" >Закрыть</button>
+    </section  >
+    <section class="modal modal-map">
+      <h2 class="visually-hidden">Как добраться</h2>
+      <iframe src="https://yandex.ru/map-widget/v1/-/CGd5fX6G" width="602" height="483" frameborder="1" allowfullscreen="true"></iframe>
+      <img src="img/html/map.jpg" alt="наш барбершоп на карте" class="visually-hidden">
+      <button  class="modal-close" type="button" >Закрыть</button>
+    </section>
+    <script  src="barbershop-others.js">
+    </script>
+  </body>
+</html>
